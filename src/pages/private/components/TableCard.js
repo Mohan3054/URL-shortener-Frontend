@@ -22,7 +22,7 @@ const TableCard = ({ urlData }) => {
                     <th scope="row">{index + 1}</th>
                     <td>{item.originalUrl}</td>
                     <td>
-                      https://karthee-urlshortsapp-000001.herokuapp.com/
+                    https://capable-figolla-7122da.netlify.app/
                       {item.shortUrlId}
                     </td>
                     <td>{new Date(item.createdAt).toLocaleDateString()}</td>
